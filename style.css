@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    /*margin: 0;*/
+}
+
+body{
+    /*background-color: aqua;*/
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+a{
+    
+}
+
+/* HEADER */
+
+.banner {
+    background-image:url("./img/novaimagem.png");
+    background-size: cover;
+    height: 85vh;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+
+.banner_conteudo {/*oi eu sou a jack...*/
+    text-align: center;
+    font-size: 1.4rem;
+      
+}
+
+.banner_conteudo a {/*botão veja mais sobre mim*/
+    background-color: white;
+    /*padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;*/
+    padding:  0.5rem 1rem;
+    border-radius: 5rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #2b580c;
+
+}
+
+.banner_conteudo a:hover { /*a é sempre os links - hover elemento p links*/
+    background-color: #9BC18E;
+    transition: ease 0.5s;
+    color: white; 
+
+}
+
+/* SOBRE MIM */
+
+.sobre, 
+.redes-sociais {
+    /* margin: 0 10rem; */
+    max-width: 1024px;
+    margin: auto;
+}
+
+.sobre > h3 {/*é so o h3 q está no sobre mim*/
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.sobre_mim {
+    display: flex;
+}
+
+.sobre_conteudo,
+.sobre_habilidades {
+    width: 50%;
+}
+
+.sobre_habilidades > h3 {
+    text-align: center;
+
+}
+
+.sobre_conteudo {
+    margin-left: 13rem;
+}
+
+.sobre_habilidades {
+    margin-left: 13rem;
+    text-align: left;
+}
+
+.sobre_conteudo {/*botão veja meu cv*/
+    background-color: white;
+    color:black;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+}
+
+.sobre_conteudo a {/*link*/
+    background-color: #9BC18E;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5rem;
+}
+
+.sobre_conteudo a:hover {
+    background-color: white;
+    color: #2b580c;
+    border: 1px solid #9BC18E;
+    transition: ease 0.2s;
+
+}
+
+/*REDES SOCIAIS*/
+
+.redes-sociais {
+    margin-top: 5 rem;
+    margin-bottom: 5rem ;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.redes-sociais_facebook,
+.redes-sociais_github,
+.redes-sociais_linkedin,
+.redes-sociais_twitter {
+    background-color: #9BC18E;
+    color: black;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.redes-sociais img {
+    max-width: 2rem;
+    max-height: 2rem;
+    min-height: 2rem;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #F5EFA5;
+    color: black;
+    text-align: center;
+}
